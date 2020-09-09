@@ -26,6 +26,7 @@ $(document).ready(function(){
   }
 })
 
+//calculate work time based on current hour
 let counter = 1;
 for(const property in workTime) {
   let textEntry = "#textarea" + counter;
@@ -66,6 +67,7 @@ function hourNumberFromHourString(hourString) {
   }
 }
 
+//save work text entry to local storage
 function loadCorrectDataset() {
   result = localStorage.getItem('workTime')
   return (result ? result : workTime);
