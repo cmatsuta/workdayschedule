@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 let counter = 1;
 for(const property in workTime) {
-  let textEntry = "#text-entry" + counter;
+  let textEntry = "#textarea" + counter;
   $(textEntry).text(workTime[property]);
   let timeId = "#time" + counter;
   let currentHour = moment().hour();

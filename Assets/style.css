@@ -57,19 +57,6 @@ textarea{
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-
 .agenda {
   border: none;
   background-color: transparent;
@@ -84,14 +71,14 @@ textarea{
   border-top: 1px solid white;
 }
 
-.saveBtn {
+.btn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #4FA2B4;
   color: white;
 }
-.saveBtn i:hover {
+.btn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
