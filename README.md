@@ -9,3 +9,6 @@ This application is a simple calendar that allows the user to save tasks for eac
 * Each timeblock is color coded to indicate whether it is in the past, present, or future.
 * A user can enter an event into a timeblock and save by clicking the save button. The event will be saved in local storage.
 ![work day scheduler](./Assets/taskentry.png)
+
+## Link to deployed app
+[workday schedule link](https://cmatsuta.github.io/workdayschedule/)
